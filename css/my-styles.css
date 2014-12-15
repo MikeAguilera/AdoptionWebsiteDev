@@ -41,14 +41,14 @@ body {
 }
 
 .Aerial03 {
-	background-image: url("images/Aerial03.jpg");
-	background-position: 100% 52%; 
+	background-image: url("images/NatGeo01.jpg");
+	background-position: 100% 55%; 
 }
 
-.shadow {
+/*.shadow {
 	text-shadow: 2px 2px;
-	color: linear-gradient(#5cb85c, #419641);
-}
+		color: linear-gradient(#5cb85c, #419641);
+}*/
 
 .carouselP {
 	/*color: #000;*/
