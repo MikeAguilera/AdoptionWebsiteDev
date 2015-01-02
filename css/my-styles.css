@@ -14,6 +14,11 @@ body {
   height: 600px !important;
   text-align: center;
   padding-bottom: 50px;
+  margin-top: -35px;		
+  }
+
+  .carousel-inner {
+  	margin-top: 50px;
   }
 
 /* Glyphicons
