@@ -122,7 +122,13 @@ body {
 	font-weight: 600;
 }
 
-
+/* Scrollable Dropdown Menu
+================================ */
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
 
 
 

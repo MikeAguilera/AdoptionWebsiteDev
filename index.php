@@ -1,7 +1,11 @@
-<?php include("include/header.php"); ?>
+<!--Header Begin-->
+<?php 
+$pageTitle = "Taylor Adoptions";
+include 'inc/header.php'; ?>
+<!--Header End-->
 
 	<!-- Carousel -->
-    <div id="myCarousel" class="carousel slide jumbotron lions">
+    <div id="myCarousel" class="carousel slide jumbotron lions .img-responsive">
       <div class="container">
         <ol class="carousel-indicators">
           <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
@@ -14,29 +18,29 @@
             <h1 class="shadow">Taylor Adoptions</h1>
             <p class="lead carouselP">The definitive agency for domestic, foster care and international adoptions</p>
             <p class="btn-group">
-              <a class="btn btn-success btn-lg" href="contact.html">Contact Us</a>
-              <a class="btn btn-default btn-lg hidden-xs" href="text.html" >Text us</a>
+              <a class="btn btn-success btn-lg" href="contact.php">Contact Us</a>
+              <!--<a class="btn btn-default btn-lg hidden-xs" href="text.php" >Text us</a>-->
             </p> 
           </div>
           <div class="item">
             <h1>Domestic Adoptions</h1>
               <p class="lead">Interested in a Domestic adoptions? We'll help you figure out where to start!</p>
               <p>
-                <a class="btn btn-success btn-lg" href="domestic.html">Get started today!</a>
+                <a class="btn btn-success btn-lg" href="domestic.php">Get started today!</a>
               </p>
           </div>
           <div class="item">
             <h1>Foster Care Adoptions</h1>
             <p class="lead">Adoptioning from Foster Care can be so satisfying. We'll explain the process and help you get started!</p>
             <p>
-              <a class="btn btn-success btn-lg" href="fostercare.html">Get started today!</a>
+              <a class="btn btn-success btn-lg" href="fostercare.php">Get started today!</a>
             </p>            
           </div>
           <div class="item">
             <h1>International Adoptions</h1>
             <p class="lead">Looking to adopt a child internationally? We'll explain the process and help you get started!</p>
             <p>
-              <a class="btn btn-success btn-lg" href="international.html">Get started today!</a>
+              <a class="btn btn-success btn-lg" href="international.php">Get started today!</a>
             </p>            
           </div>
         </div>
@@ -76,7 +80,7 @@
           <div class="row">
             <div class="col-sm-12">
               <p>Call us now for a free consultation!</p>
-              <p><a href="contact.html">Call Taylor Adoptions Now &raquo;</a></p>
+              <p><a href="contact.php">Call Taylor Adoptions Now &raquo;</a></p>
             </div>
           </div>
         </div>
@@ -84,20 +88,14 @@
         <div class="col-sm-6">
           <h3>About Taylor Adoptions</h3>
           <p>Taylor Adoptions provides services and supports that will give you a wide range of options and choices that will help you bring your child home.</p>
-          <a href="newsletter.html" class="btn btn-success btn-md">Sign up for our newsletter &raquo;</a>
+          <a href="newsletter.php" class="btn btn-success btn-md">Sign up for our newsletter &raquo;</a>
         </div>
       </div>
 
-      <hr>
-      <div class="pull-right">
-        <p>&copy; 2014 Taylor Adoptions - By Taylor Adoptions, Inc.</p>
-      </div>
-    </div>
-
-<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
+     
+<!--Footer Begin-->
+<?php include 'inc/footer.php'; ?>
+<!--Footer End-->
 
 
 
